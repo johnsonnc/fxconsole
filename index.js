@@ -116,7 +116,12 @@ FirefoxREPL.prototype = {
       this.repl.prompt = this.getPrompt();
     }
   },
-
+  startConsoleListener : function(){
+      this.tab.Console.on("console-api-call", function(event){
+           this.write((event + "\n").yellow);
+            this.repl.displayPrompt();
+      });
+  },
   getPrompt: function() {
     var parts = url.parse(this.tab.url);
 
