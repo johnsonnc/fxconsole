@@ -324,11 +324,11 @@ FirefoxREPL.prototype = {
 
   },
   paths: {
-    "/emp-map/": "/workspace/projects/extensible-mapping-platform/trunk/emp-map/src/main/webapp/",
-    "/cpce-map-api/": "/workspace/projects/extensible-mapping-platform/trunk/emp-map-api/src/main/webapp/"
+    "/a-url-path/": "/workspace/projects/eee/trunk/eee/src/main/webapp/",
+    "/another-url-path/": "/workspace/projects/eee/trunk/eee/src/main/webapp/"
   },
   editor: {
-    command: "/home/johnsonnc/Downloads/Sublime\\ Text\\ 2/sublime_text",
+    command: "/home/user/Downloads/Sublime\\ Text\\ 2/sublime_text",
     line: ":",
     column: ":"
   },
